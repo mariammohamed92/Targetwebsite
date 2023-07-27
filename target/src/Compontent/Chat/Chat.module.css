@@ -1,0 +1,260 @@
+.Chat{
+    position: relative;
+width: 460px;
+height: 520px;
+border-radius: 2%;
+background: linear-gradient(180deg, rgba(241, 227, 227, 0.30) 100%, rgba(202, 200, 200, 0.20) 100%);
+
+
+}
+
+.Ellipse{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 19px;
+    top: 16px;    
+}
+.gold{
+    position: absolute;
+    width: 81px;
+    height: 17px;
+    left: 59px;
+    top: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.golden{
+    position: absolute;
+    width: 30px;
+    height: 11px;
+    left: 59px;
+    top: 36px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 11px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.Vector{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 415px;
+    top: 20px;
+    background: linear-gradient(180deg, rgba(251, 168, 28, 0.048) 0%, rgba(224, 86, 136, 0.018) 100%);
+
+}
+.Line{
+ position: absolute;
+width: 460px;
+height: 0px;
+left: 0px;
+top: 80px;
+border: 1px solid rgb(133, 119, 119);
+}
+.Ellipse1{
+position: absolute;
+width: 30px;
+height: 30px;
+left: 9px;
+top: 96px;
+}
+.div{
+    box-sizing: border-box;
+    position: relative;
+    width: 370px;
+    height: 60px;
+    left: 40px;
+    top: 96px;
+    background:  rgba(224, 112, 112, 0.10);
+    ;
+    border: 1px solid rgba(224, 112, 112, 0.10);
+    border-radius: 5px;
+}
+.prg{
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    left: 15px;
+    top: 10px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: black;
+    
+    
+}
+.prg1{
+ position: absolute;
+width: 35px;
+height: 11px;
+left: 50px;
+top: 161px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 11px;
+display: flex;
+align-items: center;
+color: black;
+
+}
+.Ellipse2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 409px;
+    top: 187px;
+    }
+.div1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 48px;
+    left: 24px;
+    top: 187px;
+    background:#BF1818 ;
+    border-radius: 5px;
+}
+.prgg{
+    position: absolute;
+    width: 350px;
+    height: 28px;
+    left: 10px;
+    top: 10px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+.prgg1{
+    position: absolute;
+    width: 35px;
+    height: 11px;
+    left: 362px;
+    top: 240px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 11px;
+    display: flex;
+    align-items: center;
+    color: black;
+    
+}
+.Ellipse3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 9px;
+    top: 266px;
+}
+.div2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 60px;
+    left: 54px;
+    top: 266px;
+    background: rgba(224, 112, 112, 0.10);
+    border: 1px solid rgba(224, 112, 112, 0.10)A6F6;
+    border-radius: 5px;
+}
+.prggg{
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    left: 15px;
+    top: 10px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: black;
+    
+}
+.prggg1{
+    position: absolute;
+    width: 35px;
+    height: 11px;
+    left: 54px;
+    top: 331px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 11px;
+    display: flex;
+    align-items: center;
+    color: black;
+    
+}
+.div3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 430px;
+    height: 35px;
+    left: 15px;
+    top: 465px;
+    background: #FFFFFF;
+    border: 1px solid #CBCBCB;
+    border-radius: 10px;
+}
+.title{
+    position: absolute;
+    width: 73px;
+    height: 12px;
+    left: 30px;
+    top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #CBCBCB;
+    
+}
+.Rectangle{
+position: absolute;
+width: 25px;
+height: 25px;
+left: 390px;
+top: 6px;
+background: #7879F1;
+border-radius: 15px;
+}
+.Tel{
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    left: 392px;
+    top: 6px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}

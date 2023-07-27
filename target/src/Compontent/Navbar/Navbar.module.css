@@ -1,0 +1,80 @@
+:root {
+    --primary-color:  #BF1818;
+}
+
+.textLogo {
+    color: #fff;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.textLogo:hover {
+    color: var(--primary-color);
+}
+
+
+.frameNav {
+    width: 90%;
+    margin: auto;
+    background-color: transparent;
+
+}
+
+nav ul li {
+    font-size: 17px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: 1.19;
+
+}
+
+
+.navLink i{
+    color: #f79d76;
+}
+
+.navLink1{
+    color: #fff !important;
+}
+
+
+.navLink:hover {
+    color: var(--primary-color) ;
+    font-size: 17px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: 1.19;
+}
+
+nav ul li:hover {
+    color: var(--primary-color);
+    
+}
+
+
+.btn {
+    color: #fff;
+    background-color:  #BF1818;;
+    border: none;
+    box-shadow: none;
+    
+}
+
+.btn:hover {
+    color: #fff;
+    background-color:  #BF1818;;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    color: #fff;
+    background-color:  #BF1818;;
+    box-shadow: none;
+    border: none;
+}

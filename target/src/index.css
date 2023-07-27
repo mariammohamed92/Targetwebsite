@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+
+body {
+    background-color: #FFFFFF;
+    width: 97% !important;
+}
+
+
+
+.navbar {
+    overflow: hidden;
+   background-color: rgba(255, 255, 255, 0.9); 
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: #BF1818;
+   
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .show>.nav-link {
+    color: black;
+    
+}
+
+
+.slick-slide>div {
+    width: 90%;
+    margin: auto;
+}
+
+
+.slick-prev {
+    left: -15px;
+}
+
+.slick-next{
+    right: -15px;
+    
+}

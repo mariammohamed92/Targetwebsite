@@ -1,0 +1,117 @@
+
+
+.contact {
+    height: 100vh;
+}
+
+/* media query for container */
+@media only screen and (max-width: 600px) {
+    .contact .container {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contact .container {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contact .container {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contact .container {
+        width: 40%;
+        margin: auto;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .contact .container {
+        width: 40%;
+        margin: auto;
+    }
+}
+
+.contact .bg {
+    background-image: url(../../assets/Contact/bg-contact.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.contact h1 {
+    position: relative;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    /*color: black;*/
+}
+
+.contact h1::before {
+    content: '';
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    background-color: #BF1818;
+}
+
+/* form */
+.contact label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #0b0b0bE5;
+}
+
+.contact .customFormControl {
+    border: #BF1818 2px solid;
+}
+
+.contact .customFormControl:focus {
+    border-color: #BF1818;
+    border: #BF1818 2px solid;
+    outline: 0;
+    box-shadow: none;
+}
+
+.contact ::placeholder {
+    color: #c7b9b9;
+    font-weight: 500;
+}
+
+/* button */
+.contact button {
+    color: #fff;
+    background-color: #BF1818;
+    border: none;
+    box-shadow: none;
+}
+
+.contact button:hover {
+    color: #fff;
+    background-color: #BF1818;
+    border: none;
+    box-shadow: none;
+}
+
+.contact .btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    color: #fff;
+    background-color: #BF1818;
+    box-shadow: none;
+    border: none;
+}

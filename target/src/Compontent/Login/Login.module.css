@@ -1,0 +1,50 @@
+.Title{
+
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 84px;
+    color: black;
+    
+}
+.prg{
+    
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 39px;
+    color: black;
+    
+}
+.Sign{
+   font-family: 'Graphik';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 28px;
+   color: black;
+   }
+   .btn{
+   font-family: 'Graphik';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: black;
+   }
+   .acon{
+    
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color:#BF1818;
+    
+    }
+    
+    
+    

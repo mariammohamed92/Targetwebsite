@@ -1,0 +1,84 @@
+
+.Icon{
+    height: 28px;
+    margin-top:4%;
+    margin-bottom:6%;
+    margin-left: 10%;
+    }
+    .Vectorr1{
+        width: 8%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .Rec{
+        width: 10%;
+    }
+    .add{
+        width: 10%;
+    }
+    .Elp{
+        width: 10%;
+        margin-left: 90%;
+    }
+    .icon{
+        width: 7%;
+    }
+    .Text1{
+    
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    /* line-height: 180%; */
+    padding: 20px 0;
+    letter-spacing: 0.01em;
+    background-image: url(../../assets/Services/Shap.png);
+    background-position: center center;
+    background-size: cover;
+    
+    }
+    .Text{
+    
+        font-family: 'Graphik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        /* line-height: 180%; */
+        padding: 20px 0;
+        letter-spacing: 0.01em;
+    }
+    .Prg{
+    
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 40px;
+        letter-spacing: 0.01em;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .Read{
+        width: 149px;
+        height: 50px;
+       /*left: 781px;*/
+       /*top: 649px;*/
+       background: #BF1818;
+       font-family: 'Poppins';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 16px;
+       /* line-height: 177.9%; */
+       text-align: center;
+       letter-spacing: 0.01em;
+       color: #FFFFFF;
+       }
+    
+    
+    .Polygon{
+        width: 48.63px;
+        height: 48.63px;
+    }
+    
+    
+    
+    

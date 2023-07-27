@@ -1,0 +1,187 @@
+
+.contt1{
+    background-image: url(../../assets/Home/bg1.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+    padding-top: 40px;
+}
+.WhoeWeArw .contentText {
+    background-image: url(../../assets/About/bg-intro.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+    padding-top: 40px;
+}
+
+.WhoeWeArw .contentImg img {
+
+    padding-top: 40px;
+}
+
+.WhoeWeArw .contentText h1 {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 75px;
+    
+}
+
+.WhoeWeArw .contentText h1 span {
+    color: #BF1818;
+}
+
+.WhoeWeArw .contentText h1 {
+    padding: 16px 0;
+}
+
+.WhoeWeArw .contentText p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color:black;
+    
+}
+
+.bttn{
+ background-color:  #BF1818;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+width: 150px;
+height: 50px;
+}
+.btttn{
+    background-color:  #BF1818;
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 27px;
+   color: #FFFFFF;
+   width: 150px;
+   height: 50px;
+   margin-left: 40%;
+   }
+.bttnn{
+    background-color:  #BF1818;
+    margin-bottom: 2%;
+    margin-left: 40%;
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 27px;
+   color: #FFFFFF;
+   width: 150px;
+   height: 50px;
+   }
+   .arrow{
+    width: 10%;
+    margin-right: 18%;
+   }
+   .Pluse{
+    width: 5%;
+    margin-left: 90%;
+   }
+/* media query for container */
+@media only screen and (max-width: 600px) {
+    .WhoeWeArw .contentText h1 {
+        padding: 2px 0;
+
+    }
+
+    .WhoeWeArw .contentText p {
+        font-size: 12px;
+        line-height: 23px;
+    }
+}
+
+
+
+/* our Services */
+.Titlee{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;    
+    color: black;
+    
+}
+.TITLE{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.750316px;
+    color: black;
+}
+
+.services p
+{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: black;
+    
+}
+
+.title span {
+    color: var(--primary-color);
+}
+
+.title h1 {
+    width: 70%;
+    margin: auto;
+    color: #101828;
+    /* font-size: 2.5rem; */
+}
+.Titlel{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 66px;
+    color: black;
+   
+}
+
+.serchIcon {
+    background-color: rgba(84, 84, 212, 0.1);
+    color: #BF1818;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.capIcon {
+    background-color: rgba(240, 64, 55 , 0.1);
+    color: #F04037;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.medalIcon {
+    background-color: rgba(254, 220, 90 , 0.1);
+    color: #FEDC5A;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

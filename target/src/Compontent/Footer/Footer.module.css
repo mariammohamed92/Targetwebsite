@@ -1,0 +1,81 @@
+/* contact */
+
+
+.contact {
+background: rgba(224, 112, 112, 0.10);
+    color: black;
+height: 400px;
+background-image: url(../../assets/Home/bg.png);
+background-position: center;
+background-size: 100%;
+background-repeat: no-repeat;
+padding-top: 40px;
+}
+
+.contact .container {
+    width: 70%;
+    margin: auto;
+}
+
+.contact h1 {
+    max-width: 600px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10%;
+}
+
+/* button */
+.contact button {
+    color: #fff;
+    background-color: #BF1818;
+    border: none;
+    box-shadow: none;
+    padding-top: 20%;
+}
+
+.contact button:hover {
+    color: #fff;
+    background-color: #BF1818;
+    border: none;
+    box-shadow: none;
+}
+
+.contact .btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    color: #fff;
+    background-color: #BF1818;
+    box-shadow: none;
+    border: none;
+}
+
+.footer {
+    background-color: #fff;
+    color: black;
+}
+
+.footer a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.footer a:hover {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+.footer p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.support{
+    width: 95%;
+    margin: auto;
+}

@@ -1,0 +1,221 @@
+
+.WhoeWeArw .contentText {
+    background-image: url(../../assets/About/bg-intro.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+
+    padding-top: 40px;
+}
+
+.WhoeWeArw .contentImg img {
+
+    padding-top: 40px;
+}
+
+.WhoeWeArw .contentText h1 {
+    font-weight: 700;
+}
+
+.WhoeWeArw .contentText h1 span {
+    color: #BF1818;
+}
+
+.WhoeWeArw .contentText h1 {
+    padding: 16px 0;
+}
+
+.WhoeWeArw .contentText p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 38px;
+}
+
+/* media query for container */
+@media only screen and (max-width: 600px) {
+    .WhoeWeArw .contentText h1 {
+        padding: 2px 0;
+
+    }
+
+    .WhoeWeArw .contentText p {
+        font-size: 12px;
+        line-height: 23px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* .WhoeWeArw .contentImg img{
+    width: 75%;
+} */
+
+/* meet */
+
+.meet {
+    overflow: hidden;
+
+}
+
+.meet .content {
+    width: 88%;
+    margin: auto;
+    background-image: url(../../assets/About/bg.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top right;
+}
+
+.meet h1 {
+    color: black;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+}
+
+.meet h6 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.meet h6 span {
+    color: #BF1818;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.meet p {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* engaged */
+
+
+.engaged i{
+    left: 100px;
+    transform: rotate(55deg);
+    top: -10px;
+    color: black;
+    font-size: large;
+}
+
+.engaged .doublecircle{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+
+.engaged .content {
+    width: 100%;
+    margin: auto;
+
+    /* background-image: url(../../assets/About/circle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; */
+}
+
+.engaged h1 {
+    color: black;
+    font-weight: 700;
+}
+
+.engaged p {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 37px;
+    letter-spacing: 1%;
+    max-width: 700px;
+    margin: auto;
+}
+/* .box{
+    margin-bottom: 3rem;
+    background-color: white;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+
+.box .work{
+    overflow: hidden;
+}
+.box .work img{
+    transition: all 1s;
+}
+ .box:hover .work img{
+    transform: scale(1.3);
+
+}*/
+ .portitem{
+    position: relative;
+overflow: hidden;
+}
+ .imglayer{
+    position: absolute;
+top: 3px;
+left: 3px;
+right: 3px;
+bottom: 3px;
+background: rgba(255, 255, 255, 0.4);
+opacity: 0;
+transition: all .5s;
+text-align: center;
+transform: translateY(10px);
+}
+ .imginfo{
+    position: absolute;
+width: 100%;
+top: 35%;
+left: 0;
+transform: translate(0%, -70%);
+}
+span{
+    display: inline-block;
+}
+ .imginfo h6{
+    position: relative;
+    margin-top: 100%;
+    font-size: 30px;
+font-weight: 700;
+letter-spacing: 2px;
+transition: all .5s;
+transform: translateY(-15px);
+}
+ .imginfo .iconport span  i{
+    background: #BF1818;
+    color: #f2f1f5;
+    margin-bottom: 3px;
+    border-radius: 50%;
+    border: 1px solid #BF1818;
+    display: inline-block;
+width: 28px;
+height: 28px;
+line-height: 28px;
+}
+ .imglayer:hover {
+    opacity: 1;
+    transform: translateY(0);
+}
+ .imglayer:hover .imginfo h6{
+    transform: translateY(0);
+}
+  .imginfo .iconport span  i:hover{
+    background-color: transparent;
+    color: #BF1818;
+}
